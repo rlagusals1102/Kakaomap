@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:weightSum="1"
+    android:padding="30dp"
+    >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.94" />
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="352dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#ffffff"
+        android:insetLeft="5dp"
+        android:insetTop="2dp"
+        android:insetRight="5dp"
+        android:insetBottom="2dp"
+        android:onClick="OnClickToMain"
+        android:text="GO"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+
+</LinearLayout>
